@@ -33,4 +33,4 @@ If you are interested in contributing to this project, feel free to submit a pul
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](License).
