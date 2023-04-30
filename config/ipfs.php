@@ -15,7 +15,7 @@ return [
     |
     */
     'ipfs' => [
-        'base_url' => 'host.docker.internal',
+        'base_url' => 'localhost',
         'port' => 5001,
     ],
 

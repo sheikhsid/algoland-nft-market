@@ -59,7 +59,8 @@ class AssetController extends Controller
      * @throws \SodiumException
      */
     public function getTransactionFields(TransactionFieldsRequest $request) {
-        
+
+        exit();
 
         $provider = Session::get('provider');
         $address = Session::get('address');
