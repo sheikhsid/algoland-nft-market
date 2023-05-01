@@ -22927,8 +22927,7 @@ video {
 }
 
 .text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  color: #f1f1f1 !important;--tw-text-opacity: 1;
 }
 
 .text-gray-800 {
@@ -31843,14 +31842,17 @@ video {
 }
 
 .purple-to-orange-horizontal {
-  background: #76f935;
   color: #000;
   border-radius: 0;
-  padding: 22px 30px;
   font-weight: 600;
   margin: 0 30px 0 0;
+  height: 60%;
+  background: #f8f8f8;
 }
-
+header .purple-to-orange-horizontal {
+    padding: 21px 30px;
+    background: #76f935;
+}
 .purple-to-orange-horizontal:hover {
   background: #2cb6bc;
 }
